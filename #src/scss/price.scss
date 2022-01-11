@@ -1,0 +1,14 @@
+.price {
+    font-family: "Roboto", sans-serif;
+    &__wrapper{
+        padding: 50px 0px;
+        font-weight: 900;
+        font-size: 36px;
+    }
+    &__descr {
+        color: $black;  
+    }
+    &__result {
+        color: $red;  
+    }
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.1/css/bootstrap-grid.min.css" integrity="sha512-Xj2sd25G+JgJYwo0cvlGWXoUekbLg5WvW+VbItCMdXrDoZRWcS/d40ieFHu77vP0dF5PK+cX6TIp+DsPfZomhw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.min.css">
+    <script src="js/script.min.js"></script>
+    <title>markup-product</title>
+</head>
+<body>
+    <section class="products">
+    <div class="container">
+        <div class="products__wrapper">
+            <h2 class="products__title">заголовок блока</h2>
+            <h3 class="products__subtitle">Подзаголовок блока </h3>
+            <div class="products__block">
+                <div class="products__item">
+                    <div class="products__content">
+                        <div class="products__name">Продукт 1</div>
+                        <img class="products__picture" src="./img/product/product.png" alt="">
+                        <p class="products__descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam quis rhoncus mi. Duis ultrices augue nunc, sit amet placerat ligula pretium vel. Aenean eget quam ante. Duis ipsum dui, euismod id tristique id, consectetur vitae enim. Nunc finibus consequat risus, vel tristique ex dapibus et. Proin tempus nulla quis erat blandit vehicula.</p>
+                    </div>
+                    <div class="products__price">
+                        <span class="products__sum">1200 РУБ.</span>
+                        <button type="button" class="products__btn" data-price="1200">добавить в корзину</button>
+                    </div>
+                </div>
+
+                <div class="products__item">
+                    <div class="products__content">
+                        <div class="products__name">Продукт 1</div>
+                        <img class="products__picture" src="./img/product/product.png" alt="">
+                        <p class="products__descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam quis rhoncus mi. Duis ultrices augue nunc, sit amet placerat ligula pretium vel. Aenean eget quam ante. Duis ipsum dui, euismod id tristique id, consectetur vitae enim. Nunc finibus consequat risus, vel tristique ex dapibus et. Proin tempus nulla quis erat blandit vehicula.</p>
+                    </div>
+                    <div class="products__price">
+                        <span class="products__sum">4200 РУБ.</span>
+                        <button type="button" class="products__btn" data-price="4200">добавить в корзину</button>
+                    </div>
+                </div>
+
+                <div class="products__item">
+                    <div class="products__content">
+                        <div class="products__name">Продукт 1</div>
+                        <img class="products__picture" src="./img/product/product.png" alt="">
+                        <p class="products__descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam quis rhoncus mi. Duiorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam quis rhoncus mi. Duis ultrices augue nunc, sit amet placerat ligula pretium vel. Aenean eget quam ante. Duis ipsum dui, euismod id tristique id, consectetur vitae enim. Nunc finibus consequat risus, vel tristique ex dapibus et. Proin tempus nulla quis erat blandit vehiculs ultrices augue nunc, sit amet placerat ligula pretium vel. Aenean eget quam ante.</p>
+                    </div>
+                    <div class="products__price">
+                        <span class="products__sum">9200 РУБ.</span>
+                        <button type="button" class="products__btn" data-price="9200">добавить в корзину</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <section class="price">
+    <div class="container">
+        <div class="price__wrapper">
+            <p class="price__descr">ОБЩАЯ СУММА: <span class="price__result">0</span> руб</p>
+        </div>
+    </div>
+</section>
+</body>
+</html>
