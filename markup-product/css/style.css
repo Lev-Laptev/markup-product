@@ -480,9 +480,9 @@ button:focus {
 }
 
 .products {
-  font-family: "Roboto", sans-serif;
   padding-top: 100px;
   padding-bottom: 65px;
+  font-family: "Roboto", sans-serif;
   background-color: #E5E5E5;
 }
 
@@ -591,13 +591,13 @@ button:focus {
 }
 
 .products__btn {
-  text-transform: uppercase;
+  width: 100%;
+  padding: 18px 0px;
   font-size: 18px;
   line-height: 21px;
   color: #FFFFFF;
+  text-transform: uppercase;
   background-color: #2CC34F;
-  padding: 18px 0px;
-  width: 100%;
   outline: none;
   border: 0;
 }
@@ -607,10 +607,6 @@ button:focus {
 }
 
 .products__btn:active {
-  background-color: #0c902b;
-}
-
-.products__btn_active {
   background-color: #0c902b;
 }
 
