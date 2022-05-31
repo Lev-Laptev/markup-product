@@ -9,7 +9,7 @@ GitHub Pages: [View](https://lev-laptev.github.io/markup-product/markup-product/
   
 ## About <a name = "about"></a>
 
-![img](https://ll-testing.ru/img-prodject/markup-product.jpg)
+![img](http://test-developer.ru/preview/markup-product.jpg)
 
 ## Usage <a name = "usage"></a>
 ```
