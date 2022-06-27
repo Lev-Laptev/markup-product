@@ -1,6 +1,6 @@
 # Markup Product
 
-GitHub Pages: [View](https://lev-laptev.github.io/markup-product/markup-product/)
+View: [Click](https://markup-product.netlify.app/)
 
 ## Table of Contents
 
