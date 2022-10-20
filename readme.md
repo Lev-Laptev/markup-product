@@ -1,27 +1,47 @@
-# Markup Product
+<h1 align="center">Markup Product</h3>
 
-### View: [Click](https://markup-product.netlify.app/)
+## 📝 Table of Contents
 
-## Table of Contents
+- [Getting Started](#start)
+- [Demo](#demo)
+- [Output Structure](#output-structure)
 
-- [About](#about)
-- [Usage](#usage)
-  
-## About <a name = "about"></a>
+## 🏁 Getting Started <a name = "start"></a>
+
+- Clone or download the repo
+- `npm install` to install dependencies
+- `gulp` to start
+- `gulp build` to build
+
+## 🎥 Demo <a name = "demo"></a>
+
+View: [Click](https://markup-product.netlify.app/)
 
 ![img](http://test-developer.ru/preview/markup-product.jpg)
 
-## Usage <a name = "usage"></a>
-```
-npm install
+## 🗂 Output Structure <a name = "output-structure"></a>
+
+```shell
+📦markup-product
+ ┣ 📂#src
+ ┃ ┣ 📂img
+ ┃ ┃ ┗ 📂product
+ ┃ ┃ ┃ ┗ 📜product.png
+ ┃ ┣ 📂js
+ ┃ ┃ ┗ 📜script.js
+ ┃ ┣ 📂scss
+ ┃ ┃ ┣ 📜price.scss
+ ┃ ┃ ┣ 📜product.scss
+ ┃ ┃ ┣ 📜reset.scss
+ ┃ ┃ ┣ 📜style.scss
+ ┃ ┃ ┗ 📜variables.scss
+ ┃ ┣ 📜index.html
+ ┃ ┣ 📜_price.html
+ ┃ ┗ 📜_product.html
+ ┣ 📜.gitignore
+ ┣ 📜gulpfile.js
+ ┣ 📜package.json
+ ┗ 📜readme.md
 ```
 
-### start
-```
-gulp
-```
-
-### build
-```
-gulp build
-```
+[(Back to top)](#table-of-contents)
